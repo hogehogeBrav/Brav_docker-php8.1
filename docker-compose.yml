@@ -16,6 +16,7 @@ services:
     build: ./php
     volumes:
       - ./www/html:/var/www/html
+      - ./php/php.ini:/usr/local/etc/php/php.ini
     depends_on:
       - db
 
