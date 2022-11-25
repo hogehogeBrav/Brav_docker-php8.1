@@ -30,6 +30,7 @@ services:
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
       MYSQL_ROOT_PASSWORD:
+      TZ: Asia/Tokyo
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:5.2.0
